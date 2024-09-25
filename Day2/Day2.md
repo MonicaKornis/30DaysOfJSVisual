@@ -44,6 +44,7 @@ The Math object provides a lot of useful methods to help us work with numbers
 
 * Math.ceil(Math.random() * 10) //generates a random number between 1 and 10
 * Math.floor(Math.random() * (100 - 50 + 1)) + 50 // generates a random number between 50 and 100
+* How to shuffle an array using Math.random: const shuffledArray = array.sort((a, b) => 0.5 - Math.random());
 
 Escape Sequences in Javascript 
 
